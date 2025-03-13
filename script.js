@@ -77,6 +77,6 @@ document.getElementById('searchButton').addEventListener('click', async () => {
         return;
     }
 
-    const data = await fetchBuildingPermits(startDate, endDat);
+    const data = await fetchBuildingPermits(startDate, endDate);
     displayMarkers(data);
 });
